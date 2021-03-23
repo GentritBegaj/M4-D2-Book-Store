@@ -1,0 +1,22 @@
+body {
+  background: rgb(81, 91, 130);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 91, 130, 1) 0%,
+    rgba(71, 23, 67, 0.6690825988598564) 100%
+  );
+}
+
+.Card {
+  background-color: transparent;
+}
+
+.cardBody {
+  background-color: rgb(182, 173, 159);
+}
+
+.cardTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
