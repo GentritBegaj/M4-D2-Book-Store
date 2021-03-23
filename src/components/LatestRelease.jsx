@@ -9,7 +9,7 @@ import "./LatestRelease.css";
 
 class LatestRelease extends React.Component {
   state = {
-    category: [...history],
+    category: history,
   };
 
   render() {
@@ -17,27 +17,27 @@ class LatestRelease extends React.Component {
       <Container className="content-div">
         <Row>
           <Col xs={6} sm={4} md={2} className="mb-3">
-            <Button onClick={() => this.setState({ category: [...horror] })}>
+            <Button onClick={() => this.setState({ category: horror })}>
               Horror
             </Button>
           </Col>
           <Col xs={6} sm={4} md={2} className="mb-3">
-            <Button onClick={() => this.setState({ category: [...history] })}>
+            <Button onClick={() => this.setState({ category: history })}>
               History
             </Button>
           </Col>
           <Col xs={6} sm={4} md={2} className="mb-3">
-            <Button onClick={() => this.setState({ category: [...scifi] })}>
+            <Button onClick={() => this.setState({ category: scifi })}>
               Scifi
             </Button>
           </Col>
           <Col xs={6} sm={4} md={2} className="mb-3">
-            <Button onClick={() => this.setState({ category: [...fantasy] })}>
+            <Button onClick={() => this.setState({ category: fantasy })}>
               Fantasy
             </Button>
           </Col>
           <Col xs={6} sm={4} md={2} className="mb-3">
-            <Button onClick={() => this.setState({ category: [...romance] })}>
+            <Button onClick={() => this.setState({ category: romance })}>
               Romance
             </Button>
           </Col>
